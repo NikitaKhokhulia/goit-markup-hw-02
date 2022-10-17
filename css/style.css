@@ -17,6 +17,7 @@ background: #F5F5F5; -3
  body {
   background-color: #fff;
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
  }
 
  .list {
@@ -27,6 +28,12 @@ background: #F5F5F5; -3
 
 .logo {
   color: #000;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  /* letter-spacing: 0.03em;
+  text-align: left; */
 }
 
 .logo-title {
@@ -43,14 +50,24 @@ background: #F5F5F5; -3
   color: var(--accent-color);
 }
 
-.site-nav .link.current {
+.site-nav .link {
   color: var(--accent-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+/* letter-spacing: 0.02em;
+text-align: left; */
+
 }
 
 /* Auth-nav */
 
 .auth-nav .link {
   color: var(--primary-text-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+
 }
 
 .auth-nav .link:hover,
@@ -62,14 +79,24 @@ background: #F5F5F5; -3
 .solutions {
   background-color: #2F303A;
 }
-.solutions.tittle {
+.solutions.title {
   color: #FFFFFF;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  text-align: center;
+
 }
 
 /* Button */
 .button {
   background-color: var(--accent-color);
   color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
+  text-align: center;
+
 }
 
 .button-filter {
@@ -89,17 +116,32 @@ background: #F5F5F5; -3
   background-color: #F5F5F5;
 }
 
-.features.tittle {
+
+.features.title {
   color: var(--title-text-color);
+
 }
 
-.features .tittle {
+.features .title {
   color: var(--title-text-color);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+.features .subtitle {
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 /* Section Works */
-.works.tittle {
+.works.title {
   color: var(--title-text-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-align: center;
+
 }
 
 /* Team */
@@ -107,11 +149,11 @@ background: #F5F5F5; -3
   background-color: #F5F4FA;
 }
 
-.team.tittle {
+.team.title {
   color: var(--title-text-color);
 }
 
-.team.list .tittle {
+.team.list .title {
   color: var(--title-text-color);
 }
 
@@ -141,6 +183,6 @@ background: #F5F5F5; -3
 
 /* Portfolio */
 
-.list .tittle {
+.list .title {
   color: var(--title-text-color);
 }
