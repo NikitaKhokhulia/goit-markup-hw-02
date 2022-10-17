@@ -1,9 +1,6 @@
 
  /* цвета заголовка текста color: #212121;/
- 
-
- /* Цвета массива текста color: #757575;*/
-
+  /* Цвета массива текста color: #757575;*/
  /*  Фоновые Цвета 
  background: #FFFFFF; - 1
  background: #2F303A; -2
@@ -36,8 +33,6 @@ background: #F5F5F5; -3
   color: var(--accent-color);
 }
 
-
-
 /* Site-nav */
 .site-nav {
   color: var(--title-text-color);
@@ -45,6 +40,10 @@ background: #F5F5F5; -3
 
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
   color: var(--accent-color);
 }
 
@@ -60,35 +59,59 @@ background: #F5F5F5; -3
 }
 
 /* Section solutions */
-.section-solutions {
+.solutions {
   background-color: #2F303A;
 }
-.solutions-tittle {
+.solutions.tittle {
   color: #FFFFFF;
 }
 
-/* Section */
-.section-features,
-.section-works {
+/* Button */
+.button {
+  background-color: var(--accent-color);
+  color: #fff;
+}
+
+.button-filter {
+  background-color: #F5F4FA;
+  color: var(--title-text-color);
+}
+.button-filter:hover, 
+.button-filter:focus {
+  background-color: var(--accent-color);
+  color: #fff;
+
+}
+
+/* Section Features */
+.features,
+.works {
   background-color: #F5F5F5;
 }
 
-.section-team {
-  background-color: #F5F4FA;
+.features.tittle {
+  color: var(--title-text-color);
 }
 
-.section-tittle {
+.features .tittle {
   color: var(--title-text-color);
- }
+}
 
- /* Features */
-
-.features-list .tittle {
+/* Section Works */
+.works.tittle {
   color: var(--title-text-color);
 }
 
 /* Team */
-.team-list .tittle {
+.team {
+  background-color: #F5F4FA;
+}
+
+.team.tittle {
+  color: var(--title-text-color);
+}
+
+.team.list .tittle {
   color: var(--title-text-color);
 }
 
@@ -98,20 +121,26 @@ background: #F5F5F5; -3
   background-color: #2F303A;
 }
 
-.address-list .link {
+.address.list .link {
   color: #757575;
 }
 
-.address-list .link-address {
+.address.list .link-address {
   color: #fff;
 }
 
-.address-list .link:hover,
-.address-list .link:focus {
+.address.list .link:hover,
+.address.list .link:focus {
   color: var(--accent-color);
 }
 
-.address-list .link-address:hover,
-.address-list .link-address:focus {
+.address.list .link-address:hover,
+.address.list .link-address:focus {
   color: var(--accent-color);
+}
+
+/* Portfolio */
+
+.list .tittle {
+  color: var(--title-text-color);
 }
