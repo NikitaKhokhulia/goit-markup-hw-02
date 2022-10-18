@@ -189,6 +189,7 @@ background: #F5F5F5; -3
 
 .address.list .link-address {
   color: #fff;
+  text-decoration: none;
 }
 
 .address.list .link:hover,
@@ -209,9 +210,15 @@ background: #F5F5F5; -3
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
+
 }
 
 .list .subtitle {
-font-size: 16px;
-line-height: 1.87;
+  font-size: 16px;
+  line-height: 1.87;
+
+}
+
+.list .link {
+  text-decoration: none;
 }
