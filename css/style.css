@@ -126,12 +126,12 @@ background: #F5F5F5; -3
 }
 
 
-.features.title {
+.features .title {
   color: var(--title-text-color);
 
 }
 
-.features .title {
+.features.list .title {
   color: var(--title-text-color);
   font-size: 14px;
   font-weight: 700;
@@ -185,12 +185,23 @@ background: #F5F5F5; -3
 }
 
 .address.list .link {
-  color: #757575;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  text-align: left;
+
 }
 
 .address.list .link-address {
   color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  text-align: left;
   text-decoration: none;
+  font-style: normal;
 }
 
 .address.list .link:hover,
@@ -201,6 +212,10 @@ background: #F5F5F5; -3
 .address.list .link-address:hover,
 .address.list .link-address:focus {
   color: var(--accent-color);
+}
+
+.accent {
+  color: #fff;
 }
 
 /* Portfolio */
@@ -215,9 +230,9 @@ background: #F5F5F5; -3
 }
 
 .list .subtitle {
+  color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.87;
-
 }
 
 .list .link {
